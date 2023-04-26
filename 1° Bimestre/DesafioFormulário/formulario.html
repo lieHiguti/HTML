@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Questionario
+            </legend>
+            <fieldset>
+                <legend>
+                    Cadastro
+                </legend>
+                    <label for="E-mail">
+                        E-mail
+                    </label>
+                    <input id="E-mail" name="E-mail" type="email" />
+                        <br>
+                        <br>
+                    <label for="Senha">
+                        Senha
+                    </label>
+                    <input id="Senha" name="Senha" type="password" />
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Dados Pessoais
+                </legend>
+                    <label for="Nome">
+                        Nome
+                    </label>
+                    <input id="nome" name="Nome" type="text" />
+                        <br>
+                        <br>
+                    <label for="Idade">
+                        Idade
+                    </label>
+                    <input id="Idade" name="Idade" type="number" />
+                        <br>
+                        <br>
+                    <label for="Telefone">
+                        Telefone
+                    </label>
+                    <input id="Telefone" name="Telefone" type="tel" />
+                        <br>
+                        <br>
+                    <label for="Data-de-Nascimento">
+                        Data de Nascimento
+                    </label>
+                    <input id="Nascimento" name="Data-de-Nascimento" type="date" />
+                        <br>
+                        <br>
+                    <label for="Gênero">
+                        Gênero
+                    </label>
+                        <input id="Feminino" name="sexo" type="radio" />
+                        <label for="Feminino">
+                            Feminino
+                        </label>
+                        <input id="Masculino" name="sexo" type="radio" />
+                        <label for="Masculino">
+                            Masculino
+                        </label>
+                        <input id="Outro" name="sexo" type="radio" />
+                        <label for="Outro">
+                            Outro
+                        </label>
+                        <input id="não-responder" name="sexo" type="radio" />
+                        <label for="Prefiro-não-responder">
+                            Prefiro não responder
+                        </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Preferências
+                </legend>
+                    <label for="Marca-de-celular-que-você-usa">
+                        Marca de celular que você usa
+                    </label>
+                        <select id="marca" nome="celular"> 
+                            <option value="Apple">
+                                Apple
+                            </option>
+                            <option value="Xiaomi">
+                                Xiaomi
+                            </option>
+                            <option value="Samsung">
+                                Samsung
+                            </option>
+                            <option value="Motorola">
+                                Motorola
+                            </option>
+                        </select>
+                            <br>
+                            <br>
+                    <label for="Escoha-um-navegador-que-você-usa">
+                        Escoha num navegador que você usa
+                    </label>
+                    <input id="navegador" name="navegador" type="text" list="navegador" />
+                    <datalist id="navegador">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Edge">
+                    </datalist>
+                        <br>
+                        <br>
+                    <label for="Escolha-os-ritmos-de-música-que-você-escuta:">
+                        Escolha os ritmos de música que você escuta:
+                    </label>
+                        <input id="rock" name="rock"  type="checkbox" />
+                            <label for="rock">
+                                Rock
+                            </label>
+                        <input id="pop" name="pop" type="checkbox" />
+                            <label for="pop">
+                                Pop
+                            </label>
+                        <input id="funk" name="funk" type="checkbox" />
+                            <label for="funk">
+                                Funk
+                            </label>
+                        <input id="mbp" name="mbp" type="checkbox" />
+                            <label for="mbp">
+                                MPB
+                            </label>
+                        <input id="sertabejo" name="sertanejo" type="checkbox" />
+                            <label for="sertanejo">
+                                Sertabejo
+                            </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Comentário
+                </legend>
+                    <textarea id="comentario" name="comentario" rows="4" cols="50">
+                        Deixe um comentário!
+                    </textarea>
+            </fieldset>
+            <button type="reset">
+                Resetar
+            </button>
+            <button type="submit">
+                Enviar
+            </button>
+        </fieldset>
+    </form>
+</body>
+</html>
