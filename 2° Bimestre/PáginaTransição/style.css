@@ -1,0 +1,32 @@
+.item {
+    background-color: #f9f2e9;
+    display: flex;
+}
+
+.h1 {
+    text-align: center;
+    background: linear-gradient(to rigth, #e22e1c, #df9d1d, #ffed00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  ;
+}
+
+.h4 {
+    text-align: center;
+    background: linear-gradient(to rigth, #e22e1c, #df9d1d, #ffed00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: ;
+}
+
+.table{
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th {
+    border: 1px solid black;
+}
+
+.td {
+    border: 1px solid black;
+}
