@@ -1,0 +1,100 @@
+.body {
+    background: rgb(180,124,247);
+    background: radial-gradient(circle, rgba(180,124,247,1) 0%, rgba(134,25,250,1) 100%); 
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #230245;
+    border-radius: 50px;
+    height: 98vh;
+    width: 98vw;
+    position: relative;
+    top: 1vh;
+    left: 1vw;
+}
+
+.esquerda > h1 {
+    color: rgba(180,124,247,1);
+}
+
+.p {
+    color: rgba(180,124,247,1);
+    font-size: 50px;
+    text-align: center;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(82, 3, 111);
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+    flex-direction: column;
+}
+
+.img {
+    height: 50vh;
+    width: 30vw;
+    border-radius: 40%;
+}
+
+.label {
+    color: rgba(180,124,247,1);
+    font-size: 25px;
+}
+
+.input {
+    width: 15vw;
+    height: 5vh;
+    border-radius: 10%;
+}
+
+.button {
+    color: rgb(65, 2, 83);
+    background: linear-gradient(90deg, rgba(198,243,252,1) 1%, rgba(224,198,237,1) 22%, rgba(201,90,245,1) 81%, rgba(93,4,152,1) 100%);
+    border-radius: 10%;
+    height: 10vh;
+    width: 10vw;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .esquerda >h1 {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+}
+
+
+
