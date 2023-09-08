@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <button>Mundar a cor!</button>
+    <button>Click</button>-->
+
+    <div class="div1"></div>
+    <div class="div1"></div>
+    <div class="div1"></div>
+
+    <script>
+        // var btns = document. querySelectorAll("button");
+        var divs = document. queryselectorAll("div");
+
+        // var btn01 = document.querySelector("#btn01");
+        // var btn02 = document.query selector("#btn02");
+
+        function random(number) {
+            return Math.floor(Math.random() * (number + 1));
+        }
+        
+        function bgChange(evento) {
+            var rndCol = 
+                "rgb(" + random(255) + "," + random(255) + "," + random(255) +")";
+            // document.body.style.backgroundColor = rndcol;
+            evento.tanget. style. backgroundColor = rndCol;
+        }
+        
+        // btns.forEach(btn => btn.onclick = bgChange);
+
+        divs.forEach(div => div.addEventlistener("click", bgChange));
+
+        // btn0l.onclick = bgChange;
+        // btn02.onclick = bgChange;
+    </script>
+</body>
+</html>

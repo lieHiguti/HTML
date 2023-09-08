@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Formulário </legend>
+            <label for="senha"> Senha: </label>
+            <input type="password" id="senha" name="senha">
+            <br>
+            <br>
+            <label for="confrimacao"> Confirmação de Senha: </label>
+            <input type="password" id="confirmacao" name="confirmacao">
+            <br>
+            <br>
+            <button type="submit"> Enviar </button>
+        </fieldset>
+    </form>
+
+    <script>
+        var form = document.querySelector("form")
+        var senha = document.getElementById("senha")
+        var confirmacao = document.getElementById("confirmacao")
+        
+        form.onsubmit = function(e) {
+            if (senha.legth < 8) {
+                e.preventDefault();
+                alert("Sua senha precisar ter mais que 8 caracteres")
+            }
+
+            if (senha.value != confirmacao.value) {
+                e.preventDefault();
+                alert("As senhas precisar ser iguais")
+            }
+        }
+    </script>
+</body>
+</html>
