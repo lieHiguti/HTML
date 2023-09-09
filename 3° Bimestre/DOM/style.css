@@ -1,0 +1,60 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: rgb(4, 188, 182);
+}
+
+main {
+    background-color: rgb(15, 148, 104);
+}
+
+footer {
+    background-color: rgb(2, 43, 36);
+}
+
+h3 {
+    color: bisque;
+    text-align: center;
+}
+
+h4 {
+    color: bisque;
+}
+
+h5 {
+    color: bisque;
+}
+
+p {
+    color: bisque;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    height: 30vh;
+    width: 10vw;
+}
+
+.div1 {
+    margin-left: 40%;
+}
+
+.div2 {
+    margin-left: 30%;
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    color: bisque;
+}
+
+a {
+    text-align: center;
+    display:block
+}
